@@ -1,0 +1,65 @@
+.todo-list-item {
+  font-size: 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: gray solid 1px;
+  border-bottom: none;
+}
+
+.todo-list-item:first-child {
+  border-bottom: gray solid 1px;
+  border-radius: 4px 4px 0px 0px;
+}
+
+.todo-list-item:last-child {
+  border-bottom: gray solid 1px;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.todo-list-item-label {
+  margin-left: 1.25rem;
+  line-height: 35px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.todo-list-item.done .todo-list-item-label {
+  text-decoration: line-through;
+}
+
+.todo-list-item.important .todo-list-item-label {
+  font-weight: bold;
+  color: steelblue;
+}
+
+.btn-outline-danger {
+  width: 60px;
+  height: 30px;
+  margin: 5px;
+  color: red;
+  background-color: white;
+  border: red solid 1px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.btn-outline-danger:hover {
+  color: white;
+  background-color: red;
+}
+
+.btn-outline-success {
+  width: 30px;
+  height: 30px;
+  color: green;
+  background-color: white;
+  border: green solid 1px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.btn-outline-success:hover {
+  color: white;
+  background-color: green;
+}

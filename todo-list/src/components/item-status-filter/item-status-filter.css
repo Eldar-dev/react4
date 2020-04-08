@@ -1,0 +1,18 @@
+.btn-info {
+  display: flex;
+}
+
+.all,
+.activ,
+.done {
+  border: gray solid 1px;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.new {
+  color: white;
+  background-color: #1eb0c7;
+  border-color: #1eb0c7;
+}

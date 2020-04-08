@@ -1,0 +1,27 @@
+.addSaveNew {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.addNew {
+  width: 100%;
+  max-width: 525px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+.addBtn {
+  width: 50px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.addBtn:hover {
+  color: white;
+  background-color: #1eb0c7;
+  border: 1px solid #1eb0c7;
+}
